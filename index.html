@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HandViewerTest</title>
+    <title>HandViewerTest</title>
+    <script type="module" src="https://cdn.skypack.dev/twind/shim"></script>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
@@ -29,5 +30,12 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+    <div>
+      LMB Rotate<br>
+      RMB LightRotate<br>
+      Rkey Reverse<br>
+      Zkey ChangeShader<br>
+      <br>
+    </div>
   </body>
 </html>
